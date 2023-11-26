@@ -1,0 +1,65 @@
+.footer {
+    position: relative;
+    bottom: 0;
+
+    height: 100%;
+
+    background-color: $color-blue;
+    color: $color-white;
+
+    &__container {
+        position: relative;
+        grid-template-areas: 
+            "a a a a a a a a a a a"
+            "b b b b b b b b b b b"
+            "c c c c c c c c c c c";
+        gap: $gap-calulation * 2;
+
+        height: 100%;
+        
+        
+        @extend %page-container;
+        
+        @media (min-width: $break-md) {
+            grid-template-areas: "a a a a b b b b c c c c";
+        }
+
+        &__logo {
+            grid-area: a;
+            place-self: top center;
+        }
+
+        &__links {
+            grid-area: b;
+
+            ul > li {
+                padding: calc(#{$spacing-base} * 1.5) 0;
+
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+        
+        &__contact {
+            grid-area: c;            
+        }
+
+        ul {
+            margin-left: 0;
+
+            li {
+                padding: calc(#{$spacing-base} * 1.5) 0;
+    
+                a {
+                    color: $color-white;
+                }
+            }
+        }
+    }
+
+    &__title {
+        @extend %h4;
+        color: $color-white;
+    }
+}

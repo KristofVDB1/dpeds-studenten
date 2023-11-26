@@ -1,0 +1,59 @@
+/* Place your global styling imports here. Split them up in separate files that represent a logical unit. */
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+button,
+input {
+	/*  This defines what 1rem is */
+	font-size: 62.5%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+
+h1{
+	@extend %h1;  
+	letter-spacing: 0.15rem;
+}
+
+h2{
+	@extend %h2;
+}
+
+h3{
+	@extend %h3;  
+}
+
+h4{
+	@extend %h4;  
+}
+
+h5{
+	@extend %h5;  
+}
+
+h6{
+	@extend %h6; 
+}
+
+p, ul, li, ol {
+	@extend %body-copy-3;
+}
+
+ul {
+	li {
+		padding-left: calc(#{$spacing-base} * 2.5)
+	}
+}

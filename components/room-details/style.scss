@@ -1,0 +1,46 @@
+.room {
+    @extend %page-container;
+    grid-template-areas: 
+        "title title title title title title title title title title title title"
+        "details details details details details details details details details details details details";
+
+    &__title {
+        grid-area: title;
+
+        @extend %h2;
+        font-weight: $font-weight-medium;
+    }
+
+    &__details {
+        grid-area: details;
+        align-items: flex-start;
+        text-align: left;
+
+
+        &__table {
+            display: block;
+            max-width: 100%;
+
+            &__body {
+                display: table;
+                width: 100%;
+            }
+
+            &__row {
+                width: 100%;
+            }
+
+            &__header {
+                @extend %body-copy-2;
+                width: 50%;
+                font-weight: 700;
+            }
+
+
+            &__data {
+                @extend %body-copy-3;
+                width: 100%;
+            }
+        }
+    }
+}

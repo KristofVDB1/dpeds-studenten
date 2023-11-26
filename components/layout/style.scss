@@ -1,0 +1,17 @@
+.layout {
+    position: relative;
+
+    max-width: $break-lg;
+    margin: 0 auto;
+    padding: 0 calc(#{$spacing-base} * 2);
+
+    font-family: $font-family-text;
+    font-size: $font-size-text-sm;
+}
+
+@media screen and (width <= 1023px) {
+    .layout {
+        width: auto;
+        max-width: $break-xlg;
+    }
+}

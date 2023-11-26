@@ -1,0 +1,7 @@
+.region {
+	margin: 0 auto;
+	padding: calc(#{$spacing-base} * 4) 0 calc(#{$spacing-base} * 4);
+
+	font-family: $font-family-text;
+	font-size: $font-size-text-sm;
+}

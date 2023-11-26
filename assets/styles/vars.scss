@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+$break-s: 480px;
+$break-md: 768px;
+$break-lg: 1024px;
+$break-xlg: 1280px;
+
+
+$color-white: white;
+$color-gray-tint-100: #fff;
+$color-gray-tint-90: #f2f2f2;
+$color-gray-tint-80: #e6e6e6;
+$color-gray-tint-70: #d9d9d9;
+$color-gray-tint-60: #ccc;
+$color-gray-tint-50: #c0c0c0;
+$color-gray-tint-40: #b3b3b3;
+$color-gray-tint-30: #a6a6a6;
+$color-gray-tint-20: #999;
+$color-gray-tint-10: #8d8d8d;
+$color-gray: #808080;
+$color-gray-shade-10: #737373;
+$color-gray-shade-20: #666;
+$color-gray-shade-30: #5a5a5a;
+$color-gray-shade-40: #4d4d4d;
+$color-gray-shade-50: #404040;
+$color-gray-shade-60: #333;
+$color-gray-shade-70: #262626;
+$color-gray-shade-80: #1a1a1a;
+$color-gray-shade-90: #0d0d0d;
+$color-gray-shade-100: #000;
+$color-black: black;
+
+$color-blue-tint-100: #fff;
+$color-blue-tint-90: #e6e8e9;
+$color-blue-tint-80: #cdd0d3;
+$color-blue-tint-70: #b4b9bd;
+$color-blue-tint-60: #828b92;
+$color-blue-tint-50: #69737c;
+$color-blue-tint-40: #505c66;
+$color-blue-tint-30: #374550;
+$color-blue-tint-20: #1e2d3a;
+$color-blue-tint-10: #051624;
+$color-blue: #051624;
+$color-blue-shade-10: #051420;
+$color-blue-shade-20: #04121d;
+$color-blue-shade-30: #040f19;
+$color-blue-shade-40: #030d16;
+$color-blue-shade-50: #030b12;
+$color-blue-shade-60: #02090e;
+$color-blue-shade-70: #01070b;
+$color-blue-shade-80: #010407;
+$color-blue-shade-90: #000204;
+$color-blue-shade-100: #000;
+
+$color-red-tint-100: #fff;
+$color-red-tint-90: #f8e8eb;
+$color-red-tint-80: #f0d2d7;
+$color-red-tint-70: #e9bbc3;
+$color-red-tint-60: #e1a4af;
+$color-red-tint-50: #da8e9b;
+$color-red-tint-40: #d37786;
+$color-red-tint-30: #cb6072;
+$color-red-tint-20: #c4495e;
+$color-red-tint-10: #bc334a;
+$color-red: #B51C36;
+$color-red-shade-10: #a31931;
+$color-red-shade-20: #91162b;
+$color-red-shade-30: #7f1426;
+$color-red-shade-70: #360810;
+$color-red-shade-40: #6d1120;
+$color-red-shade-50: #5b0e1b;
+$color-red-shade-60: #480b16;
+$color-red-shade-80: #24060b;
+$color-red-shade-90: #120305;
+$color-red-shade-100: #000;
+
+$color-yellow-tint-100: #fff;
+$color-yellow-tint-90: #fefbe6;
+$color-yellow-tint-80: #fcf6cd;
+$color-yellow-tint-70: #fbf2b4;
+$color-yellow-tint-60: #f9ed9b;
+$color-yellow-tint-50: #f8e982;
+$color-yellow-tint-40: #f5e04f;
+$color-yellow-tint-30: #f4db36;
+$color-yellow-tint-20: #f2d71d;
+$color-yellow-tint-10: #f1d204;
+$color-yellow: #f1d204;
+$color-yellow-shade-10: #d9bd04;
+$color-yellow-shade-20: #c1a803;
+$color-yellow-shade-30: #a99303;
+$color-yellow-shade-40: #917e02;
+$color-yellow-shade-50: #796902;
+$color-yellow-shade-60: #605402;
+$color-yellow-shade-70: #483f01;
+$color-yellow-shade-80: #302a01;
+$color-yellow-shade-90: #181500;
+$color-yellow-shade-100: #000;
+
+
+$color-error: #bc334a;
+$color-succes: #1BB538;
+
+$gradient-blue-red: linear-gradient(90deg, #2F3061 0%, rgba(181, 28, 54, 80%) 100%);
+$gradient-white-blue: linear-gradient(90deg, rgba(47, 48, 97, 0%) 0%, rgba(47, 48, 97, 15%) 100%);
+$gradient-blue-white: linear-gradient(89.81deg, $color-blue 0.16%, #3F4070 100%);
+$gradient-white-red: linear-gradient(358.43deg, #B51C36 18.92%, rgba(255, 255, 255, 50%) 108.53%);
+
+
+$font-family-title: 'Changa One', sans-serif;
+$font-family-text: 'Rubik', sans-serif;
+
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+$font-size-title-xxlg: 7rem;
+$font-size-title-xlg: 5.6rem;
+$font-size-title-lg: 4rem;
+$font-size-title-md: 3rem;
+$font-size-title-sm: 2.4rem;
+$font-size-title-xs: 1.8rem;
+$font-size-title-xxs: 1.6rem;
+
+$font-size-text-xxlg: 2rem;
+$font-size-text-xlg: 1.8rem;
+$font-size-text-lg: 1.7rem;
+$font-size-text-md: 1.6rem;
+$font-size-text-sm: 1.5rem;
+$font-size-text-xs: 1.4rem;
+$font-size-text-xxs: 1.3rem;
+
+$line-height-multiplier-title: 1.3;
+$line-height-multiplier-text: 1.6;
+
+$border-width-xl: 0.5rem;
+$border-width-lg: 0.3rem;
+$border-width-md: 0.2rem;
+$border-width-sm: 0.1rem;
+$border-width-xs: 0.05rem;
+
+$box-shadow: rgba(0, 0, 0, 5%) 0 6px 24px 0, rgba(0, 0, 0, 8%) 0 0 0 1px;
+$box-shadow-highlight: 0 20px 64px -12px rgba(64, 65, 103, 16%);
+
+$spacing-base: .8rem;
+$page-bleed: 2rem;
+
+$animation-in-lg: 0.4s;
+$animation-out-lg: 0.3s;
+$animation-in: 0.3s;
+$animation-out: 0.2s;
+
+$popup-container: 67rem;
+$desktop-container: 105rem;
+
+$input-field-width: 30rem;
+
+$gap-calulation: calc(35% / 11);
+
+$header-padding: calc(#{$spacing-base} * 15);
+
+$header-height: 12rem;

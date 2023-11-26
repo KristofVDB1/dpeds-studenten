@@ -1,0 +1,6 @@
+.title {
+    @extend %page-container;
+    grid-template-columns: 1fr;
+    padding-top: 0;
+    padding-bottom: 0;
+}

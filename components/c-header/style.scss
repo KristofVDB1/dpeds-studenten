@@ -1,0 +1,154 @@
+.header {
+    position: relative;
+    overflow: hidden;
+
+    min-height: 40rem;
+
+    background-color: $color-blue;
+
+
+    &__text-container {
+        @extend %page-container;
+        
+        position: relative;
+        z-index: 2;
+        grid-template-areas: 'text text text text text text text . . . . . ';
+        align-items: end;
+    
+        padding-top: calc($spacing-base * 6);
+        padding-bottom: calc($spacing-base * 6);
+        
+        @media (max-width: $break-md) {
+            padding-top: calc($spacing-base * 3);
+            padding-bottom: calc($spacing-base * 3);
+        }
+    
+        @media (max-width: $break-md) {
+            position: static;
+            display: block;
+            transform: none;
+        }
+    
+        &__content{
+            display: flex;
+            flex-direction: column;
+            grid-area: text;
+            gap: calc($spacing-base * 4);
+    
+            min-height: 40rem;
+                
+            @media (max-width: $break-md) {
+                gap: calc($spacing-base * 3);
+                height: auto;
+                min-height: auto;
+            }
+    
+            h1, h2{
+                @extend %h2;
+                color: $color-white;
+            }
+
+    
+            &__text {
+                padding-right: calc(#{$spacing-base} * 10);
+    
+                @media (max-width: $break-md) {
+                    padding: 0;
+                }
+    
+                p {
+                    color: $color-blue-tint-90;
+                }
+            }
+    
+        }
+    }
+
+    &__image-container{
+        position: absolute;
+        top: 0;
+        left: 60%;
+        grid-template-areas: '. . . . image image image image image image image image ';
+        align-items: end;
+
+        max-width: 100%;
+        height: 100%;
+        padding: 0;
+
+        pointer-events: none;
+
+        transform: translateX(-50%);
+
+        @extend %page-container;
+
+        @media (max-width: $break-lg) {
+            grid-template-areas: 'image image image image image image image image image image image image image ';
+
+        }
+
+				
+        @media (max-width: $break-md) {
+            position: static;
+            display: flex;
+            transform: none;
+        }
+
+
+        &__wrapper {
+            position: relative;
+            display: flex;
+            grid-area: image;
+            align-items: flex-end;
+
+
+            height: 100%;
+            margin: calc($spacing-base * 3) 0 calc($spacing-base * 3)  auto;
+
+            &__image {
+                object-fit: cover;
+
+                max-width: 100%;
+                height: 100%;
+                max-height: 54rem;
+
+                object-position: 100% 100%;
+
+                mask-size: contain;
+                mask-image: url('/public/images/paint_brush.svg');
+
+                mask-repeat: no-repeat;
+
+                mask-position: top right;
+				
+                @media (max-width: $break-md) {
+                    width: 35rem;
+                    height: 25rem;
+                }
+            }
+
+            				
+            @media (max-width: $break-md) {
+                margin: 0 auto;
+
+            }
+
+            &__gradient {
+                content: '';
+                position: absolute;
+                top: 0;
+                display: block;
+
+                width: 50%;
+                height: 100%;
+
+                background: linear-gradient(90deg, rgba($color-blue, 100%) 20%, rgba($color-blue, 0%) 100%);
+
+                @media (max-width: $break-md) {
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+}

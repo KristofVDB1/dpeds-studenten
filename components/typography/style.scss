@@ -1,0 +1,15 @@
+.typography {
+    display: block;
+
+    @extend %page-container;
+    grid-template-columns: 1fr;
+
+    p:not(:last-child) {
+        padding: calc(#{$spacing-base} * 2) 0;
+    }
+
+    p:last-child {
+        padding-top: calc(#{$spacing-base} * 2);
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,47 @@
+
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: $color-blue;
+    color: white;
+
+    font-family: $font-family-text;
+    font-size: $font-size-text-sm;
+}
+
+.navigation__logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    height: 100%;
+}
+
+.navigation__links {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto 0;
+
+    
+    &__item {
+        display: block;
+        align-items: center;
+
+        height: 100%;
+        margin: 0 calc(#{$spacing-base} * 2);
+
+        a {
+            color: inherit
+        }
+    }
+}
+
+

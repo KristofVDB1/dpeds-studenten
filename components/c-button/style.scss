@@ -1,0 +1,35 @@
+
+.button {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    padding: 1.1rem 2.4rem 1.2rem;
+    border: none;
+    border-radius: $border-width-lg;
+
+    background-color: $color-yellow;
+
+
+    cursor: pointer;
+
+    font-family: $font-family-text;
+    font-weight: $font-weight-medium;
+    
+    &:hover {
+        background: $color-yellow-shade-10;  
+    }
+
+    &::first-letter {
+        display: block;
+        text-transform: uppercase;
+    }
+
+
+    &[disabled],
+    &[disabled]:hover,
+    &[disabled]::before {
+        pointer-events: none;
+    }
+
+}
