@@ -1,5 +1,5 @@
 <template>
-  <!-- <c-header
+  <c-header
     :title="data?.title ?? 'title'"
     :description="data?.description"
     :image="data?.image"
@@ -16,7 +16,7 @@
     </template>
   </typography>
   <room-details :details="data?.details" />
-  <image-gallery :images="data?.images" /> -->
+  <image-gallery :images="data?.images" />
 </template>
 
 <script setup lang="ts">
@@ -24,15 +24,15 @@ import type { Room } from '~/types/room'
 
 const { path } = useRoute()
 
-// const { data } = await useAsyncData('data', async () => {
-//   const [data] = await Promise.all([
-//     queryContent<Room>(`${path}configuration`).find(),
-//   ])
+const { data } = await useAsyncData('data', async () => {
+  const [data] = await Promise.all([
+    queryContent<Room>(`${path}/configuration`).find(),
+  ])
 
-//   return data[0]
-// })
-// // Redirect to 404 in case of no data
-// if (!data.value) {
-//   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
-// }
+  return data[0]
+})
+// Redirect to 404 in case of no data
+if (!data.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Page not found' })
+}
 </script>
