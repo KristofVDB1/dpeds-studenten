@@ -60,7 +60,7 @@ const headerData: Header = {
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero vitae nisi aliquam aliquet.',
   image: {
-    src: '/images/image.jpeg',
+    src: 'image.jpeg',
     width: 700,
     height: 540,
   },

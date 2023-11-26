@@ -5,10 +5,7 @@
     :image="data?.image"
   />
   <typography>
-    <template
-      v-if="data?.paragraphs?.length"
-      v-for="paragraph in data?.paragraphs"
-    >
+    <template v-if="data?.paragraphs" v-for="paragraph in data?.paragraphs">
       <h2 v-if="paragraph?.title">{{ paragraph?.title }}</h2>
       <p v-if="paragraph?.description">
         {{ paragraph?.description }}
@@ -26,9 +23,10 @@ const { path } = useRoute()
 
 const { data } = await useAsyncData('data', async () => {
   const [data] = await Promise.all([
-    queryContent<Room>(`${path}/configuration`).find(),
+    queryContent<Room>(`${path}configuration`).find(),
   ])
 
+  console.log(data[0])
   return data[0]
 })
 // Redirect to 404 in case of no data
