@@ -2,7 +2,6 @@ import { fileURLToPath } from 'url'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: true,
   alias: {
     "@components": fileURLToPath(new URL('./components', import.meta.url)),
     "@types": fileURLToPath(new URL('./types', import.meta.url)),
@@ -20,9 +19,6 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    // https://github.com/davestewart/nuxt-content-assets
-    'nuxt-content-assets',
-    // make sure to add before content!    
     '@nuxt/content',
     'vue3-carousel-nuxt',
     "@nuxt/image",
@@ -37,9 +33,11 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
+    rootDir: __dirname,
     // define preset for nitro and which backend to serve the project
     preset: "node-server",
     prerender: {
+      crawlLinks: true,
       routes: ['/geudenstraat', '/sloefke'],
       ignore: ['/api']
     }
