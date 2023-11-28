@@ -37,7 +37,7 @@ export default defineNuxtConfig({
     // define preset for nitro and which backend to serve the project
     preset: "node-server",
     prerender: {
-      crawlLinks: true,
+      // crawlLinks: true,
       routes: ['/geudenstraat', '/sloefke'],
       ignore: ['/api']
     }
