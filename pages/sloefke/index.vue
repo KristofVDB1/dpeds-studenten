@@ -17,6 +17,7 @@
     </template>
   </typography>
   <cards :items="data?.rooms" title="Onze studentenkamers" />
+  <c-footer />
 </template>
 
 <script lang="ts" setup>

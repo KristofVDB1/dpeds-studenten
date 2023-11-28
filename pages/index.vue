@@ -31,6 +31,7 @@
     </p>
   </typography>
   <cards :items="cardItems" title="Onze studentenkoten" />
+  <c-footer />
 </template>
 
 <script lang="ts" setup>

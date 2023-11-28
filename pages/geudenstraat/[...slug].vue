@@ -14,6 +14,7 @@
   </typography>
   <room-details :details="data?.details" />
   <image-gallery :images="data?.images" />
+  <c-footer />
 </template>
 
 <script setup lang="ts">
