@@ -38,7 +38,6 @@ const { data } = await useAsyncData('data', async () => {
 })
 // Redirect to 404 in case of no data
 if (!data.value) {
-  console.log(data)
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 </script>

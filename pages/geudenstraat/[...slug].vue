@@ -19,15 +19,12 @@
 <script setup lang="ts">
 import type { Room } from '~/types/room'
 
-const { path } = useRoute()
+const { params } = useRoute()
 
 const { data } = await useAsyncData('data', async () => {
   const [data] = await Promise.all([
-    queryContent<Room>(`${path}configuration`).find(),
+    queryContent<Room>(`geudenstraat/${params?.slug[0]}/configuration`).find(),
   ])
-
-  console.log(`${path}/configuration`)
-  console.log(data[0])
   return data[0]
 })
 // Redirect to 404 in case of no data
