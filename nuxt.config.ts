@@ -2,6 +2,7 @@ import { fileURLToPath } from 'url'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true,
   alias: {
     "@components": fileURLToPath(new URL('./components', import.meta.url)),
     "@types": fileURLToPath(new URL('./types', import.meta.url)),
