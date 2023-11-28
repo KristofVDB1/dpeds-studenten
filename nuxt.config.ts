@@ -33,12 +33,9 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    rootDir: __dirname,
     // define preset for nitro and which backend to serve the project
     preset: "node-server",
     prerender: {
-      // crawlLinks: true,
-      routes: ['/geudenstraat', '/sloefke'],
       ignore: ['/api']
     }
   },
