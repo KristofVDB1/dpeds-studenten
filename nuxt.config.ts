@@ -27,6 +27,9 @@ export default defineNuxtConfig({
   carousel: {
     prefix: 'custom',
   },
+  image: {
+    format: ['webp']
+  },
   content: {
     documentDriven: true,
     highlight: {

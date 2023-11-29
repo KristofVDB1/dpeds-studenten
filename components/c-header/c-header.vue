@@ -19,6 +19,9 @@
     <div class="header__image-container" v-if="image">
       <div class="header__image-container__wrapper">
         <NuxtImg
+          preload
+          format="webp"
+          placeholder
           class="header__image-container__wrapper__image"
           src="/images/image.jpeg"
           :width="image?.width ?? 700"

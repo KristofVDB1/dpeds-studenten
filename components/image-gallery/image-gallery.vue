@@ -5,7 +5,12 @@
     :items-to-show="1.9"
   >
     <custom-slide v-for="(image, index) in images" :key="index">
-      <NuxtImg class="image-gallery__image" :src="image?.src" />
+      <NuxtImg
+        class="image-gallery__image"
+        :src="image?.src"
+        format="webp"
+        placeholder
+      />
     </custom-slide>
 
     <template #addons>

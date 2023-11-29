@@ -2,6 +2,8 @@
   <a :href="link?.href" class="card">
     <div class="card__image-container">
       <NuxtImg
+        format="webp"
+        placeholder
         class="card__image-container__image"
         src="/images/image.jpeg"
         width="350"
