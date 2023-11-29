@@ -3,7 +3,6 @@
     <div class="navigation__logo">
       <a
         href="/"
-        class="vlw__primary-bar__brand__host"
       >
         DPEDS
       </a>

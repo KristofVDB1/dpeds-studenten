@@ -15,11 +15,21 @@
 }
 
 .navigation__logo {
+    @extend %h4;
     display: flex;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
     flex: 1;
+    margin-left: calc(#{$spacing-base} * 2.5);
     align-items: center;
+    font-family: $font-family-logo;
 
     height: 100%;
+
+    & a:visited {
+        color: white;
+    }
 }
 
 .navigation__links {
