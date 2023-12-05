@@ -14,7 +14,6 @@
   </typography>
   <room-details :details="data?.details" />
   <image-gallery :images="data?.images" />
-  <!-- <lightbox /> -->
   <c-footer />
 </template>
 

@@ -1,18 +1,20 @@
 <template>
   <custom-carousel
     class="image-gallery"
-    :wrapAround="true"
-    :items-to-show="1.9"
+    :wrapAround="false"
+    snap-align="center"
   >
     <custom-slide v-for="(image, index) in images" :key="index">
-      <a @click="() => showImg(index, images)">
-        <NuxtImg
-          class="image-gallery__image"
-          :src="image?.src"
-          format="webp"
-          placeholder
-        />
-      </a>
+      <div class="image-gallery__test">
+        <a @click="() => showImg(index, images)">
+          <NuxtImg
+            class="image-gallery__image"
+            :src="image?.src"
+            format="png"
+            placeholder
+          />
+        </a>
+      </div>
     </custom-slide>
 
     <template #addons>
@@ -25,6 +27,8 @@
     :imgs="imgsRef"
     :index="indexRef"
     @hide="onHide"
+    :rotateDisabled="true"
+    :moveDisabled="true"
   />
 </template>
 

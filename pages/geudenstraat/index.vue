@@ -17,6 +17,7 @@
     </template>
   </typography>
   <cards :items="data?.rooms" title="Onze studentenkamers" />
+  <c-footer />
 </template>
 
 <script lang="ts" setup>
@@ -28,7 +29,10 @@ const { data } = await useAsyncData('data', async () => {
   const [data, roomData] = await Promise.all([
     queryContent<StudentHouse>('geudenstraat/configuration').find(),
     // skip 1 because the first item is the configuration of the index
-    queryContent<Room>('/geudenstraat').where({ _extension: 'json' }).skip(1).find(),
+    queryContent<Room>('/geudenstraat')
+      .where({ _extension: 'json' })
+      .skip(1)
+      .find(),
   ])
 
   return {
