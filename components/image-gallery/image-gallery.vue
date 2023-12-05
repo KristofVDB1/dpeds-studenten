@@ -5,16 +5,14 @@
     snap-align="center"
   >
     <custom-slide v-for="(image, index) in images" :key="index">
-      <div class="image-gallery__test">
-        <a @click="() => showImg(index, images)">
-          <NuxtImg
-            class="image-gallery__image"
-            :src="image?.src"
-            format="png"
-            placeholder
-          />
-        </a>
-      </div>
+      <a @click="() => showImg(index, images)">
+        <NuxtImg
+          class="image-gallery__image"
+          :src="image?.src"
+          format="png"
+          placeholder
+        />
+      </a>
     </custom-slide>
 
     <template #addons>
