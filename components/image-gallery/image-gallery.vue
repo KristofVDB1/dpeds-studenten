@@ -9,7 +9,7 @@
         <NuxtImg
           class="image-gallery__image"
           :src="image?.src"
-          format="png"
+          format="webp"
           placeholder
         />
       </a>
