@@ -44,4 +44,8 @@ export default defineNuxtConfig({
       ignore: ['/api']
     }
   },
+  // Plugins to run before rendering page: https://nuxt.com/docs/api/configuration/nuxt-config#plugins-1
+  plugins: [
+    { src: '~/plugins/webcomponents.ts', mode: 'client' },
+  ],
 })

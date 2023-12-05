@@ -5,26 +5,47 @@
     :items-to-show="1.9"
   >
     <custom-slide v-for="(image, index) in images" :key="index">
-      <NuxtImg
-        class="image-gallery__image"
-        :src="image?.src"
-        format="webp"
-        placeholder
-      />
+      <a @click="() => showImg(index, images)">
+        <NuxtImg
+          class="image-gallery__image"
+          :src="image?.src"
+          format="webp"
+          placeholder
+        />
+      </a>
     </custom-slide>
 
     <template #addons>
       <custom-pagination />
     </template>
   </custom-carousel>
+  <vue-easy-lightbox
+    :loop="true"
+    :visible="visibleRef"
+    :imgs="imgsRef"
+    :index="indexRef"
+    @hide="onHide"
+  />
 </template>
 
 <script setup lang="ts" name="image-gallery">
+import { useEasyLightbox } from 'vue-easy-lightbox'
 import type { Image } from '~/types/image'
 defineProps({
   images: {
     type: Array<Image>,
   },
+})
+
+const showImg = (index: number, images?: Image[]) => {
+  const links: string[] = images?.map((image) => image.src) ?? []
+  indexRef.value = index
+  visibleRef.value = true
+  imgsRef.value = links
+}
+
+const { onHide, visibleRef, indexRef, imgsRef } = useEasyLightbox({
+  imgs: [],
 })
 </script>
 <style scoped lang="scss" src="./style.scss" />
