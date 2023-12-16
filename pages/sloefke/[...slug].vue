@@ -14,6 +14,7 @@
   </typography>
   <room-details :details="data?.details" />
   <image-gallery :images="data?.images" />
+  <banner v-if="data?.banner" v-bind="data?.banner" />
   <c-footer />
 </template>
 

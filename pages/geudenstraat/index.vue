@@ -17,6 +17,7 @@
     </template>
   </typography>
   <cards :items="data?.rooms" title="Onze studentenkamers" />
+  <banner v-if="data?.content?.banner" v-bind="data?.content?.banner" />
   <c-footer />
 </template>
 

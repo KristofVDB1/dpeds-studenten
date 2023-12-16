@@ -1,17 +1,31 @@
 .banner {
     @extend %page-container;
     position: relative;
-    grid-template-areas: '. . articles articles articles articles articles articles articles articles . .';
-
+    grid-template-areas: 
+    ". title title title title title title title title title title ."
+    ". content content content content content content content content content content .";
     width: 100%;
     height: 100%;
-    min-height: 20rem;
+    min-height: 30rem;
+    grid-gap: calc($spacing-base * 2) 0;
 
-    background-color: $color-red;
+    @media (min-width: $break-md) {
+        grid-template-areas: 
+        ". . title title title title title title title title . ."
+        ". . content content content content content content content content . .";
+    }
+
+    background-color: $color-yellow;
 
     &__title {
-        grid-area: articles;
-        color: $color-white;
+        @extend %h3;
+        grid-area: title;
         font-size: $font-size-title-md;
+    }
+
+    &__content {
+        @extend %body-copy-2;
+        grid-area: content;
+        overflow: scroll
     }
 }
