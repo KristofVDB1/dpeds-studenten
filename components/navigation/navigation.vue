@@ -11,9 +11,6 @@
       <div class="navigation__links__item">
         <a href="/sloefke">Sloefke</a>
       </div>
-      <div class="navigation__links__item">
-        <a href="/geudenstraat">Geudenstraat</a>
-      </div>
     </div>
   </nav>
 </template>

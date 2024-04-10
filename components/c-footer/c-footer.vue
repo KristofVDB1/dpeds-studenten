@@ -49,10 +49,6 @@ const data: Footer = {
       href: '/sloefke',
       title: 'Sloefke',
     },
-    {
-      href: '/geudenstraat',
-      title: 'Geudenstraat',
-    },
   ],
   details: {
     email: 'kristof.vandenbrouck@gmail.com',

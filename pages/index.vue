@@ -46,14 +46,6 @@ const cardItems: Array<Card> = [
       title: 'Lees meer',
     },
   },
-  {
-    title: 'Geudenstraat',
-    description: 'Lorem ipsum',
-    link: {
-      href: '/geudenstraat',
-      title: 'Lees meer',
-    },
-  },
 ]
 
 const headerData: Header = {
