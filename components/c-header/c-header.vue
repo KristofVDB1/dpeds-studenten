@@ -23,7 +23,7 @@
           format="webp"
           placeholder
           class="header__image-container__wrapper__image"
-          src="/images/image.jpeg"
+          :src="image?.src ?? '/images/image.jpeg'"
           :width="image?.width ?? 700"
           :height="image?.height ?? 540"
         />
