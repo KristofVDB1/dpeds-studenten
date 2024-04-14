@@ -45,6 +45,11 @@ const cardItems: Array<Card> = [
       href: '/sloefke',
       title: 'Lees meer',
     },
+    image: {
+      src: 'images/sloefke/sloefke_1.jpg',
+      width: 350,
+      height: 270,
+    },
   },
 ]
 

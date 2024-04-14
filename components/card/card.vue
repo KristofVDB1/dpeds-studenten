@@ -5,7 +5,7 @@
         format="webp"
         placeholder
         class="card__image-container__image"
-        src="/images/image.jpeg"
+        :src="image?.src ?? '/images/image.jpeg'"
         width="350"
         height="270"
       />

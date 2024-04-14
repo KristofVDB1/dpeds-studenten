@@ -2,7 +2,7 @@
   "title": "Kamer 3",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultricies magna eget, ultrices mauris.",
   "image": {
-    "src": "/images/image.jpeg"
+    "src": "/images/sloefke/kamer-3/kamer3_4.jpg"
   },
   "link": {
     "href": "/sloefke/kamer-3",
@@ -16,13 +16,22 @@
   ],
   "images": [
     {
-      "src": "/images/sloefke/kamer-1/test.jpeg"
+      "src": "/images/sloefke/kamer-3/kamer3_1.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-1/test2.jpeg"
+      "src": "/images/sloefke/kamer-3/kamer3_2.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-1/test3.jpeg"
+      "src": "/images/sloefke/kamer-3/kamer3_3.jpg"
+    },
+    {
+      "src": "/images/sloefke/kamer-3/kamer3_4.jpg"
+    },
+    {
+      "src": "/images/sloefke/kamer-3/kamer3_5.jpg"
+    },
+    {
+      "src": "/images/sloefke/kamer-3/kamer3_6.jpg"
     }
   ],
   "details": [

@@ -1,11 +1,11 @@
 {
-  "title": "Kamer 2",
+  "title": "Keuken en fietsenstalling",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultricies magna eget, ultrices mauris.",
   "image": {
-    "src": "/images/image.jpeg"
+    "src": "/images/sloefke/keuken/keuken_4.jpg"
   },
   "link": {
-    "href": "/geudenstraat/kamer-2",
+    "href": "/sloefke/keuken",
     "title": "Bekijk details"
   },
   "paragraphs": [
@@ -16,13 +16,28 @@
   ],
   "images": [
     {
-      "src": "/images/sloefke/kamer-1/test.jpeg"
+      "src": "/images/sloefke/keuken/keuken_1.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-1/test2.jpeg"
+      "src": "/images/sloefke/keuken/keuken_2.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-1/test3.jpeg"
+      "src": "/images/sloefke/keuken/keuken_3.jpg"
+    },
+    {
+      "src": "/images/sloefke/keuken/keuken_4.jpg"
+    },
+    {
+      "src": "/images/sloefke/keuken/keuken_5.jpg"
+    },
+    {
+      "src": "/images/sloefke/keuken/keuken_6.jpg"
+    },
+    {
+      "src": "/images/sloefke/keuken/keuken_7.jpg"
+    },
+    {
+      "src": "/images/sloefke/keuken/keuken_8.jpg"
     }
   ],
   "details": [

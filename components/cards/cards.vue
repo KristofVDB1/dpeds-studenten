@@ -6,6 +6,7 @@
       :title="card?.title"
       :description="card?.description"
       :link="card?.link"
+      :image="card?.image"
     />
   </double-columns>
 </template>

@@ -1,11 +1,11 @@
 {
-  "title": "Kamer 2",
+  "title": "Kamer 4",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultricies magna eget, ultrices mauris.",
   "image": {
-    "src": "/images/sloefke/kamer-2/kamer2_1.jpg"
+    "src": "/images/sloefke/kamer-4/kamer4_3.jpg"
   },
   "link": {
-    "href": "/sloefke/kamer-2",
+    "href": "/sloefke/kamer-4",
     "title": "Bekijk details"
   },
   "paragraphs": [
@@ -16,25 +16,19 @@
   ],
   "images": [
     {
-      "src": "/images/sloefke/kamer-2/kamer2_1.jpg"
+      "src": "/images/sloefke/kamer-4/kamer4_1.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-2/kamer2_2.jpg"
+      "src": "/images/sloefke/kamer-4/kamer4_2.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-2/kamer2_3.jpg"
+      "src": "/images/sloefke/kamer-4/kamer4_3.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-2/kamer2_4.jpg"
+      "src": "/images/sloefke/kamer-4/kamer4_4.jpg"
     },
     {
-      "src": "/images/sloefke/kamer-2/kamer2_5.jpg"
-    },
-    {
-      "src": "/images/sloefke/kamer-2/kamer2_6.jpg"
-    },
-    {
-      "src": "/images/sloefke/kamer-2/kamer2_7.jpg"
+      "src": "/images/sloefke/kamer-4/kamer4_5.jpg"
     }
   ],
   "details": [
