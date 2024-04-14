@@ -51,8 +51,8 @@ const data: Footer = {
     },
   ],
   details: {
-    email: 'kristof.vandenbrouck@gmail.com',
-    phone: '+32476271508',
+    email: 'grietenmichel25@gmail.com',
+    phone: '+32 477 95 77 56',
     address: {
       text: 'Schuttersvest 13 2800 Mechelen',
       href: 'https://maps.app.goo.gl/RHJhyXasi85Zpurg7',

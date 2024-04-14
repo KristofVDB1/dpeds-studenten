@@ -3,6 +3,7 @@
     class="image-gallery"
     :wrapAround="false"
     snap-align="center"
+    :items-to-show="2"
   >
     <custom-slide v-for="(image, index) in images" :key="index">
       <a @click="() => showImg(index, images)">
