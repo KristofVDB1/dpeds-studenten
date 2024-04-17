@@ -1,6 +1,6 @@
 {
   "title": "Keuken en fietsenstalling",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultricies magna eget, ultrices mauris.",
+  "description": "Een grote lichtrijke ruimte met een volledig uitgeruste keuken en een fietsenstalling wat verder op de gang",
   "image": {
     "src": "/images/sloefke/keuken/keuken_4.jpg"
   },
@@ -10,8 +10,12 @@
   },
   "paragraphs": [
     {
-      "title": "Over de kamer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "title": "Over de keuken",
+      "description": "De keuken is een grote lichtrijke ruimte met een volledig uitgeruste keuken. De keuken is voorzien van een inductiekookplaat, microgolfoven, oven en waterkoker. De keuken is voorzien van een eettafel met banken waar je gezellig kan eten. De keuken is gelegen op het gelijkvloers van het gebouw en kijkt uit op de Hanswijkstraat"
+    },
+    {
+      "title": "Fietsenstalling",
+      "description": "De keuken is een grote lichtrijke ruimte met een volledig uitgeruste keuken. De keuken is voorzien van een inductiekookplaat, microgolfoven, oven en waterkoker. De keuken is voorzien van een eettafel met banken waar je gezellig kan eten. De keuken is gelegen op het gelijkvloers van het gebouw en kijkt uit op de Hanswijkstraat"
     }
   ],
   "images": [
@@ -40,42 +44,8 @@
       "src": "/images/sloefke/keuken/keuken_8.jpg"
     }
   ],
-  "details": [
-    {
-      "title": "Oppervlakte kamer",
-      "value": "18m²"
-    },
-    {
-      "title": "Prijs per maand",
-      "value": "€ 450"
-    },
-    {
-      "title": "Vaste kosten per maand",
-      "value": "€ 50"
-    },
-    {
-      "title": "Aantal personen",
-      "value": 1
-    },
-    {
-      "title": "Aantal bedden",
-      "value": 1
-    },
-    {
-      "title": "Eigen sanitair",
-      "value": "Ja"
-    },
-    {
-      "title": "Eigen toilet",
-      "value": "Ja"
-    },
-    {
-      "title": "Eigen douche",
-      "value": "Ja"
-    }
-  ],
   "banner": {
-    "title": "Interesse in deze kamer?",
-    "content": "Neem contact met ons op via email op het adres grietenmichel25@gmail.com of telefonisch op +32 477 95 77 56. Vergeet zeker niet de kamer te vermelden waarin je interesse hebt."
+    "title": "Meer te weten komen over het Sloefke?",
+    "content": "Neem contact met ons op via email op het adres grietenmichel25@gmail.com of telefonisch op +32 477 95 77 56"
   }
 }

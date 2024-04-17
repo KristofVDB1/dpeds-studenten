@@ -1,5 +1,5 @@
 <template>
-  <div class="room">
+  <div v-if="details" class="room">
     <h2 class="room__title">Details kamer</h2>
     <div class="room__details">
       <table class="room__details__table">

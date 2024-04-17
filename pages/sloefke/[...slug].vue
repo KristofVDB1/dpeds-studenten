@@ -5,12 +5,14 @@
     :image="data?.image"
   />
   <typography>
-    <template v-if="data?.paragraphs" v-for="paragraph in data?.paragraphs">
-      <h2 v-if="paragraph?.title">{{ paragraph?.title }}</h2>
-      <p v-if="paragraph?.description">
-        {{ paragraph?.description }}
-      </p>
-    </template>
+    <div v-if="data?.paragraphs?.length" v-for="paragraph in data?.paragraphs">
+      <h2 v-if="paragraph?.title" v-html="paragraph?.title" />
+      <div v-if="paragraph?.description">
+        <p>
+          {{ paragraph?.description }}
+        </p>
+      </div>
+    </div>
   </typography>
   <room-details :details="data?.details" />
   <image-gallery :images="data?.images" />
@@ -35,3 +37,5 @@ if (!data.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 </script>
+
+<style scoped lang="scss" src="./style.scss" />

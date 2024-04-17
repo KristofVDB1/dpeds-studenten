@@ -1,6 +1,6 @@
 {
   "title": "Kamer 5",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultricies magna eget, ultrices mauris.",
+  "description": "Gelijkaardige indeling en ruimtes als Kamer 3 maar dan een verdieping hoger.",
   "image": {
     "src": "/images/sloefke/kamer-5/kamer5_1.jpg"
   },
@@ -11,7 +11,7 @@
   "paragraphs": [
     {
       "title": "Over de kamer",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "description": "Kamer 5 is een zolderkamer gelegen op de tweede verdieping aan de achterzijde van het gebouw. Het biedt dezelfde voorzieningen en indeling als Kamer 3."
     }
   ],
   "images": [

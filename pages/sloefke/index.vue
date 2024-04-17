@@ -10,7 +10,7 @@
       v-if="data?.content?.paragraphs?.length"
       v-for="paragraph in data?.content?.paragraphs"
     >
-      <h2 v-if="paragraph?.title">{{ paragraph?.title }}</h2>
+      <div v-if="paragraph?.title" v-html="paragraph?.title" />
       <p v-if="paragraph?.description">
         {{ paragraph?.description }}
       </p>
@@ -43,3 +43,5 @@ if (!data.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 </script>
+
+<style scoped lang="scss" src="./style.scss" />
