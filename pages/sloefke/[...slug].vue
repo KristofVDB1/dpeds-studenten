@@ -37,5 +37,3 @@ if (!data.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found' })
 }
 </script>
-
-<style scoped lang="scss" src="./style.scss" />

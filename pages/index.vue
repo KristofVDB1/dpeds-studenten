@@ -8,14 +8,17 @@
       uitgebreid assortiment aan studentenkamers die voldoen aan al jouw wensen
       en behoeften. Mechelen, een stad doordrenkt van geschiedenis en cultuur,
       biedt niet alleen een fantastische omgeving om te studeren, maar ook een
-      levendige gemeenschap waarin je je snel thuis zult voelen. Onze
-      studentenkamers zijn strategisch gelegen in het hart van deze prachtige
-      stad, waardoor je gemakkelijk toegang hebt tot hogescholen, openbaar
-      vervoer, winkels, restaurants en alle andere voorzieningen die Mechelen te
-      bieden heeft. Of je nu op zoek bent naar een gezellige studio voor jezelf
-      of een gedeeld appartement met vrienden, wij hebben de ideale accommodatie
-      voor jou. Onze kamers zijn modern, comfortabel en volledig uitgerust,
-      zodat je je kunt concentreren op je studie en genieten van het
+      levendige gemeenschap waarin je je snel thuis zult voelen.
+    </p>
+
+    <p>
+      Onze studentenkamers zijn strategisch gelegen in het hart van deze
+      prachtige stad, waardoor je gemakkelijk toegang hebt tot hogescholen,
+      openbaar vervoer, winkels, restaurants en alle andere voorzieningen die
+      Mechelen te bieden heeft. Of je nu op zoek bent naar een gezellige studio
+      voor jezelf of een gedeeld appartement met vrienden, wij hebben de ideale
+      accommodatie voor jou. Onze kamers zijn modern, comfortabel en volledig
+      uitgerust, zodat je je kunt concentreren op je studie en genieten van het
       studentenleven in Mechelen.
     </p>
   </typography>
